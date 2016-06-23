@@ -16,7 +16,7 @@ The example in hello-world.html within this github project will work first time 
 
 ##What is CKEditor?
     
-CKEditor is a very popular website  plug-in   found in numerous  web applications, both custom and open source  with as many as 16 million installs.   It is incredibly useful for allowing non-technical users of web applications to create content that contains rich markup that styluses text visually and features such as images links and tables.
+CKEditor is a very popular website  plug-in   found in numerous  web applications, both custom and open source  with as many as 16 million installs.   It is incredibly useful for allowing non-technical users of web applications to create content that contains rich markup that styled text visually and features such as images links and tables.
 
 ##Why does CKEditor need a spellchecker?
 
@@ -31,7 +31,7 @@ NanoSpell provide an entirely local spellchecking service for CKEditor through t
 ##Getting Started
 
 ###1 Download
-The first step to installing your spellchecker for CKEditor to download the plug-in and copy it into the root of your web application. If you prefer a simpler way simply  clone this github  github repo.
+The first step to installing your spellchecker for CKEditor to download the plug-in and copy it into the root of your web application. If you prefer a simpler way simply clone/download this github  repo.
 
 ###2 Check Everything Works
 The next step is to make everything is working properly.    browse to the Nano spell folder in your browser using the HTTP protocol  (on your local postal Web server)  and browse to get-started.html   this will walk through the entire installation process debug any problems and provide customised code samples based on your own server environment is a one-stop shop and generally alleviates over 90% of getting started problems
@@ -47,7 +47,7 @@ This tells CKEditor to use the spellchecker and allows you to set properties suc
    
 ## Spellchecker Requirements
 
-Th spellchecker plug-in for CKEditor can be installed almost anywhere you see HTML.   It *does* require a Web server such as ISO or Apache ,  but it does not require any special languages plug-ins installers executables from the box.
+Th spellchecker plug-in for CKEditor can be installed almost anywhere you see HTML.   It *does* require a Web server such as Windows IIS or Apache (all platforms) ,  but it does not require any special languages plug-ins installers executables from the box.
 
 In the backend it chooses from PHP, Asp.Net or VBScript to process spellchecking requests based on what your server has available without further installation support. Java is also supported although the installation process is more complicated.
 
