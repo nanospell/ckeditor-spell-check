@@ -1,0 +1,34 @@
+<html>
+	<body>
+
+
+	<textarea id='editor1'>
+		Lets spell check thsi Ckeditor ....
+	</textarea>
+
+	<script src="https://cdn.ckeditor.com/4.5.9/standard/ckeditor.js"></script>
+	<!-- include ckeditor from the CDN for easy -->
+
+	<script src="nanospell/autoload.js"></script>
+	<!-- load the spellcheck plugin for ckeditor -->
+
+	<script>CKEDITOR.replace( 'editor1');</script>
+	<!-- start ckeditor as per usual-->
+
+	<script>
+		// activate the ckeditor spellchecker
+		nanospell.ckeditor('editor1',{
+	    dictionary : "en",  // 24 free international dictionaries  
+	    server : "php"      // can be php, asp, asp.net or java
+	 }); 
+
+	</script>
+
+
+	<!-- just some notes -->
+	<p> Now you have started, perhaps learn more about  <a href='http://ckeditor-spellcheck.nanospell.com/plugin-settings'>spellchecker configuration </a> or download <a href='http://ckeditor-spellcheck.nanospell.com/ckeditor-spellchecking-dictionaries'>
+	free spellchecking dictionaries for Ckeditor</a>.</p>
+
+
+	</body>
+</html>
