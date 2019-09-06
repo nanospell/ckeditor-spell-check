@@ -712,9 +712,12 @@
 				return;
 			}
 			var sel = editor.getWin().getSelection();
-			var range = sel.getRangeAt(0);
-			range.deleteContents();
-			range.insertNode(editor.getDoc().createTextNode(caret_marker));
+
+			if (sel.getRangeAt && sel.rangeCount) {
+				var range = sel.getRangeAt(0);
+				range.deleteContents();
+				range.insertNode(editor.getDoc().createTextNode(caret_marker));
+			}
 		}
 		//# SECTION MARKUP #//
 	function MarkAllTypos(body) {
