@@ -77,6 +77,9 @@
 			}
 			editor.getWin = function() {
 				return editor.window.$
+			}			
+			editor.getElement = function() {
+				return editor.element.$;
 			}
 			editor.getDoc = function() {
 				return editor.document.$;
@@ -238,7 +241,7 @@
 		editor.getCommand('nanospell').setState(CKEDITOR.TRISTATE_ON);
 		state = true;
 		appendCustomStyles(settings_path)
-		var words = getWords(editor.document.$.body, maxRequest)
+		var words = getWords(editor.getBody(), maxRequest)
 		if (words.length == 0) {
 			render();
 		} else {
@@ -248,7 +251,7 @@
 	var stop = function() {
 		editor.getCommand('nanospell').setState(CKEDITOR.TRISTATE_OFF);
 		state = false;
-		clearAllSpellCheckingSpans(editor.getBody());
+		clearAllSpellCheckingSpans(editor.getElement());
 	}
 
 	function checkNow() {
@@ -388,7 +391,7 @@
 
 		putCursor();
 		var IEcaret = getCaretIE()
-		clearAllSpellCheckingSpans(editor.getBody());
+		clearAllSpellCheckingSpans(editor.getElement());
 		normalizeTextNodes(editor.getBody())
 		var caret = getCaret();
 		MarkAllTypos(editor.getBody())
@@ -403,7 +406,7 @@
 		var finished = false;
 		while (!finished) {
 			finished = true;
-			nodes = editor.getDoc().getElementsByTagName("span")
+			nodes = base.getElementsByTagName("span")
 			var i = nodes.length;
 			while (i--) {
 				node = nodes[i];
