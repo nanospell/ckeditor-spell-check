@@ -1,11 +1,11 @@
-#CKEditor Spell Check Demo
+# CKEditor Spell Check Demo
 
 This project contains examples and source code for the use of the  CKEditor spellchecking plug-in developed by http://nanospell.com 
 
 
 [![Ckeditor Spell Check - Click for a Live Demo](demo-assets/ckeditor-spell-check-demo-screenshot.png)](http://ckeditor-spellcheck.nanospell.com/)
 
-##Hello World 
+## Hello World 
 
 Our primary objective is to get a hello world and show how easy it is to install international spellchecking into your web application via CKEditor.
 
@@ -14,11 +14,11 @@ This is achieved by downloading and installing the  nano spell plug-in from http
 
 The example in hello-world.html within this github project will work first time given that it is run  within a web server such as localhost, IIS or Apache.
 
-##What is CKEditor?
+## What is CKEditor?
     
 CKEditor is a very popular website  plug-in   found in numerous  web applications, both custom and open source  with as many as 16 million installs.   It is incredibly useful for allowing non-technical users of web applications to create content that contains rich markup that styled text visually and features such as images links and tables.
 
-##Why does CKEditor need a spellchecker?
+## Why does CKEditor need a spellchecker?
 
 
 CKEditor itself does not contain a spellchecker. In-fact it's use of contextual menus prohibit the use of native spellchecker which might find in the operating system and browser (which most users are familiar with using in our day-to-day use of the Internet).
@@ -28,15 +28,15 @@ CKEditor *doe*s have access to a free spellchecking service from spellchecker.ne
 
 NanoSpell provide an entirely local spellchecking service for CKEditor through this plug-in.    All for your information stays on-site within your firewall or website environment alleviating securities concerns and all without a single advertising banner.
 
-##Getting Started
+## Getting Started
 
-###1 Download
+### 1 Download
 The first step to installing your spellchecker for CKEditor to download the plug-in and copy it into the root of your web application. If you prefer a simpler way simply clone/download this github  repo.
 
-###2 Check Everything Works
+### 2 Check Everything Works
 The next step is to make everything is working properly.    browse to the Nano spell folder in your browser using the HTTP protocol  (on your local postal Web server)  and browse to get-started.html   this will walk through the entire installation process debug any problems and provide customised code samples based on your own server environment is a one-stop shop and generally alleviates over 90% of getting started problems
 
-###3 Hook it up
+### 3 Hook it up
 
 The final step is to copy and paste the code sample from get started.html into your webpages you CKEditor.
 
@@ -52,7 +52,7 @@ Th spellchecker plug-in for CKEditor can be installed almost anywhere you see HT
 In the backend it chooses from PHP, Asp.Net or VBScript to process spellchecking requests based on what your server has available without further installation support. Java is also supported although the installation process is more complicated.
 
 
-##Installing
+## Installing
 
 From the example you can already see that installing nanoscale spellchecking plug-in for CKEditor is incredibly straightforward. 
 
@@ -78,7 +78,7 @@ This means that enterprise customers can purchase a single solution to cover all
 Web developers enjoy the fact that installation is in a familiar jquery like format performed in the front-end layer using JavaScript. Even hard-core back-end developers generally prefer to abstract UI components such as spellchecking into the HTML and JavaScript layer because it removes clutter from server logic which needs to be kept uncluttered.
 
 
-##Ckeditor Spell-checking Dictionaries
+## Ckeditor Spell-checking Dictionaries
 
 This plugin benefits from dictionaries in over 23 languages these dictionaries can be customised with words added and removed by the developer using simple text files. Very useful for adding custom vocabulary proprietary to your business or organisation.
 
@@ -104,7 +104,7 @@ You don't need to guess what user system or install a dictionary locally everyth
 
 
 
-##Licences             
+## Licences             
 
 To be clear the source code for hello-world.html within this repo is open source you may do whatever you wish.
 
